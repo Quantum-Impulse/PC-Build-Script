@@ -11,7 +11,7 @@ Only works with windows and must have Chocolatey installed to work
 ### Dependencies
 
 * Chocolatey
-* Windows 10
+* Windows 10 or ll
 
 ### Installing
 
