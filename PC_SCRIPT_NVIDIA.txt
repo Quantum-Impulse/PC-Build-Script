@@ -1,1 +1,2 @@
 choco install geforce-game-ready-driver geforce-experience steam-client battle.net msiafterburner speccy googlechrome -y
+choco upgrade all -y
