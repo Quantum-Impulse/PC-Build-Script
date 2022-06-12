@@ -11,7 +11,7 @@ Only works with windows and must have Chocolatey installed to work
 ### Dependencies
 
 * Chocolatey
-* Windows 10 or ll
+* Windows 10 or 11
 
 ### Installing
 
@@ -21,10 +21,13 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```
 
 ### Executing program
+make sure you are relative dir of where you install the repo then run your command with powershell as a administrator
 
+* For Nvidia GPU
 ```
+cmd < PC_SCRIPT_NVIDIA.txt
 ```
-
+* For AMD GPU
 ```
-
+cmd < PC_SCRIPT_AMD.txt
 ```
